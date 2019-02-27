@@ -1,5 +1,10 @@
 // declare your functions here...
 
 function paragraphSelector() {
-  return $("p")
+  return $("p");
+}
+
+function lastImageSelector() {
+  return $("img:last-of-type");
+  
 }
